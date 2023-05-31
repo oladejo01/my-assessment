@@ -19,7 +19,7 @@ const pic = document.querySelector("img")
             title.innerHTML = `Title: ${data.results[0].name.title}`;
             phoneNumber.innerHTML = ` Number: ${data.results[0].phone}`;
             email.innerHTML = `Email: ${data.results[0].email}`
-            address.innerHTML = `Address: ${data.results[0].location.street}`
+            address.innerHTML = `Address: ${data.results[0].location.street.name}`
 
 
 
